@@ -3,7 +3,7 @@ function enter() {
 	let p = document.getElementById("status");
 	// let pText = p.innerText;
 	let h1 = document.createElement("h1");
-	h1.id = "status";
+	h1.id = "heading";
 	h1.innerText = 'Entered Metaverse';
 	p.remove();
 	let body = document.querySelector("body");
